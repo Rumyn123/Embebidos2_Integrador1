@@ -1,0 +1,10 @@
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\bin\Debug\Embebidos2_integrador1.exe.config
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\bin\Debug\Embebidos2_integrador1.exe
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\bin\Debug\Embebidos2_integrador1.pdb
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.csprojAssemblyReference.cache
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.frmSplash.resources
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.Properties.Resources.resources
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.csproj.GenerateResource.cache
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.exe
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.pdb
+C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.frmPrincipal.resources

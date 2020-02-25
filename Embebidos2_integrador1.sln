@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embebidos2_integrador1", "Embebidos2_integrador1\Embebidos2_integrador1.csproj", "{EAC12EDA-C622-4495-8600-29F9E0C84A52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC12EDA-C622-4495-8600-29F9E0C84A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC12EDA-C622-4495-8600-29F9E0C84A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC12EDA-C622-4495-8600-29F9E0C84A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC12EDA-C622-4495-8600-29F9E0C84A52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E74B308F-CE9D-4F79-9A2A-840AB00942A1}
+	EndGlobalSection
+EndGlobal
