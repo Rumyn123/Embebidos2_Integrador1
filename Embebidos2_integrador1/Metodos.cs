@@ -8,9 +8,9 @@ namespace Embebidos2_integrador1
 {
     class Metodos
     {
-        private static void salir()
+        public static void salir()
         {
-            
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

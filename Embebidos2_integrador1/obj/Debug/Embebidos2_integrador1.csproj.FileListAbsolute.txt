@@ -8,3 +8,14 @@ C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\D
 C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.exe
 C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.pdb
 C:\Users\Bryant\source\repos\Embebidos2_integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.frmPrincipal.resources
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\bin\Debug\Embebidos2_integrador1.exe.config
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\bin\Debug\Embebidos2_integrador1.exe
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\bin\Debug\Embebidos2_integrador1.pdb
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.csprojAssemblyReference.cache
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.frmPrincipal.resources
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.frmSplash.resources
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.Properties.Resources.resources
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.csproj.GenerateResource.cache
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.exe
+D:\Documentos\Proyectos Windows\Embebidos2_Integrador1\Embebidos2_Integrador1\Embebidos2_integrador1\obj\Debug\Embebidos2_integrador1.pdb

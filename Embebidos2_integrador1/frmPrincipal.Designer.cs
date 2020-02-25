@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnAcercaDe = new System.Windows.Forms.Button();
             this.btnOnOff = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnGiro = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.btnAcercaDe = new System.Windows.Forms.Button();
             this.trkVelocidad = new System.Windows.Forms.TrackBar();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label2 = new System.Windows.Forms.Label();
@@ -57,6 +57,42 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(428, 43);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel1_MouseDown);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Panel1_MouseMove);
+            this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Panel1_MouseUp);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackgroundImage = global::Embebidos2_integrador1.Properties.Resources.x_mark;
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Location = new System.Drawing.Point(386, 3);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(35, 35);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnAcercaDe
+            // 
+            this.btnAcercaDe.BackgroundImage = global::Embebidos2_integrador1.Properties.Resources.ArduinoIcono;
+            this.btnAcercaDe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAcercaDe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAcercaDe.FlatAppearance.BorderSize = 0;
+            this.btnAcercaDe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnAcercaDe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnAcercaDe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAcercaDe.Location = new System.Drawing.Point(3, 3);
+            this.btnAcercaDe.Name = "btnAcercaDe";
+            this.btnAcercaDe.Size = new System.Drawing.Size(35, 35);
+            this.btnAcercaDe.TabIndex = 4;
+            this.btnAcercaDe.UseVisualStyleBackColor = true;
+            this.btnAcercaDe.Click += new System.EventHandler(this.btnAcercaDe_Click);
             // 
             // btnOnOff
             // 
@@ -95,39 +131,6 @@
             this.btnGiro.UseVisualStyleBackColor = false;
             this.btnGiro.Click += new System.EventHandler(this.btnGiro_Click);
             // 
-            // btnSalir
-            // 
-            this.btnSalir.BackgroundImage = global::Embebidos2_integrador1.Properties.Resources.x_mark;
-            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnSalir.FlatAppearance.BorderSize = 0;
-            this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Location = new System.Drawing.Point(386, 3);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(35, 35);
-            this.btnSalir.TabIndex = 5;
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
-            // btnAcercaDe
-            // 
-            this.btnAcercaDe.BackgroundImage = global::Embebidos2_integrador1.Properties.Resources.ArduinoIcono;
-            this.btnAcercaDe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAcercaDe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAcercaDe.FlatAppearance.BorderSize = 0;
-            this.btnAcercaDe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnAcercaDe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnAcercaDe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcercaDe.Location = new System.Drawing.Point(3, 3);
-            this.btnAcercaDe.Name = "btnAcercaDe";
-            this.btnAcercaDe.Size = new System.Drawing.Size(35, 35);
-            this.btnAcercaDe.TabIndex = 4;
-            this.btnAcercaDe.UseVisualStyleBackColor = true;
-            this.btnAcercaDe.Click += new System.EventHandler(this.btnAcercaDe_Click);
-            // 
             // trkVelocidad
             // 
             this.trkVelocidad.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -139,6 +142,7 @@
             this.trkVelocidad.TabIndex = 4;
             this.trkVelocidad.ValueChanged += new System.EventHandler(this.trkVelocidad_ValueChanged);
             this.trkVelocidad.CursorChanged += new System.EventHandler(this.trkVelocidad_CursorChanged);
+            this.trkVelocidad.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TrkVelocidad_MouseUp);
             // 
             // imageList1
             // 

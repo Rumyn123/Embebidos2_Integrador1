@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO.Ports;
+using System.Windows.Forms;
 
 namespace Embebidos2_integrador1
 {
@@ -19,6 +13,8 @@ namespace Embebidos2_integrador1
         }
 
         int on = 0;
+        Point formPosition;
+        Boolean mouseAction;
         private void btnOnOff_Click(object sender, EventArgs e)
         {
             if (!arduino.IsOpen)
@@ -75,7 +71,7 @@ namespace Embebidos2_integrador1
 
         private void btnAcercaDe_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Me creó el guapo Bryant", "¿Quien me creó", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Me creó el guapo Bryant", "¿Quien me creó?", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -90,7 +86,7 @@ namespace Embebidos2_integrador1
             if (dr == DialogResult.Yes)
             {
                 arduino.Close();
-                Application.Exit();
+                Metodos.salir();
             }
         }
 
@@ -154,8 +150,69 @@ namespace Embebidos2_integrador1
 
         private void cmbPuertos_Click(object sender, EventArgs e)
         {
+            cmbPuertos.Items.Clear();
             object[] ob = SerialPort.GetPortNames();
             cmbPuertos.Items.AddRange(ob);
+        }
+
+        private void TrkVelocidad_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (arduino.IsOpen)
+            {
+                switch (trkVelocidad.Value)
+                {
+                    case 0:
+                        arduino.Write("a");
+                        break;
+                    case 1:
+                        arduino.Write("b");
+                        break;
+                    case 2:
+                        arduino.Write("c");
+                        break;
+                    case 3:
+                        arduino.Write("d");
+                        break;
+                    case 4:
+                        arduino.Write("e");
+                        break;
+                    case 5:
+                        arduino.Write("f");
+                        break;
+                    case 6:
+                        arduino.Write("g");
+                        break;
+                    case 7:
+                        arduino.Write("h");
+                        break;
+                    case 8:
+                        arduino.Write("i");
+                        break;
+                    case 9:
+                        arduino.Write("j");
+                        break;
+                }
+            }
+            
+        }
+
+        private void Panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            formPosition = new Point(Cursor.Position.X - Location.X, Cursor.Position.Y - Location.Y);
+            mouseAction = true;
+        }
+
+        private void Panel1_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseAction = false;
+        }
+
+        private void Panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseAction == true)
+            {
+                Location = new Point(Cursor.Position.X - formPosition.X, Cursor.Position.Y - formPosition.Y);
+            }
         }
     }
 }
